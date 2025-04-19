@@ -9,7 +9,6 @@ This Power BI Dashboard is a comprehensive business intelligence project that tr
 -	Time-Series Trends: Track revenue and profit changes from 2017 to 2020.
 -	Regional Contribution: View revenue and profit contribution by market.
 -	Customer Insights: Analyze revenue and profitability by customer.
--	Overall Performance Metrics: ₹960M total revenue, 2M sales quantity, ₹24.66M profit margin.
 
 # 🛠️ Tools and Technologies Used
 -	Power BI – For data visualization and dashboard development.
@@ -27,6 +26,7 @@ This Power BI Dashboard is a comprehensive business intelligence project that tr
 <a href="https://github.com/0221csds146/Sales_Insights_Dashboard/blob/main/Project1.pbix">View Dashboard</a>
 
 # 💡 Key Insights
+-	Overall Performance Metrics: ₹960M total revenue, 2M sales quantity, ₹24.66M profit margin.
 -	Delhi NCR & Mumbai dominate sales and profit contribution (over 70% combined).
 -	Revenue showed consistent growth from 2017 to 2019, followed by a decline in 2020 — possibly due to market or external factors.
 -	Excel Stores and Info Stores are top revenue contributors, though some high-revenue customers generate low profits.
