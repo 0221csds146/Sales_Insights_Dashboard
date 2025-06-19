@@ -107,6 +107,24 @@ SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN s
 
 Similarly, if we want different of any other particular city the market code of that city is used on the mysql workbench.
 
+# Data Analysis (DAX):
+Measures used in all visualization are:
+
+Key Measures:
+
+Profit Margin % = DIVIDE([Total Profit Margin],[Revenue],0)
+Profit Margin Contribution % = DIVIDE([Total Profit Margin],CALCULATE([Total Profit Margin],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))
+Revenue = SUM('sales transactions'[sales_amount])
+Revenue Contribution % = DIVIDE([Revenue],CALCULATE([Revenue],ALL('sales products'),ALL('sales customers'),ALL('sales markets')))
+Revenue LY = CALCULATE([Revenue],SAMEPERIODLASTYEAR('sales date'[date]))
+sales quntity = SUM('sales transactions'[sales_qty])
+Total Profit Margin = SUM('Sales transactions'[Profit_Margin])
+Profit Target:
+
+Profit Target1 = GENERATESERIES(-0.05, 0.15, 0.01)
+Profit Target Value = SELECTEDVALUE('Profit Target1'[Profit Target])
+Target Diff = [Profit Margin %]-'Profit Target1'[Profit Target Value]
+
 # PowerBi Dashboard
 <a href="https://github.com/0221csds146/Sales_Insights_Dashboard/blob/main/Project1.pbix">View Dashboard</a>
 
