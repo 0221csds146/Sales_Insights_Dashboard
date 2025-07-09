@@ -129,13 +129,16 @@ Target Diff = [Profit Margin %]-'Profit Target1'[Profit Target Value]
 <a href="https://github.com/0221csds146/Sales_Insights_Dashboard/blob/main/Project1.pbix">View Dashboard</a>
 
 # 💡 Key Insights
--	Overall Performance Metrics: ₹960M total revenue, 2M sales quantity, ₹24.66M profit margin.
--	Delhi NCR & Mumbai dominate sales and profit contribution (over 70% combined).
--	Revenue showed consistent growth from 2017 to 2019, followed by a decline in 2020 — possibly due to market or external factors.
--	Excel Stores and Info Stores are top revenue contributors, though some high-revenue customers generate low profits.
--	Bengaluru and Kanpur report negative profit margins, indicating underperformance.
--	Low-contributing markets like Patna, Surat, and Bhubaneswar present opportunities for targeted growth.
--	Overall profit margin is modest (2.57%), suggesting a need for pricing or cost strategy review.
+-	In 2018 AtliQ Company had 345.12% sales growth, then after a decline in sales in 2019 with a -18.77% drop & significant drop in 2020 with -15.32%.
+-	As Compared to 2019 the profit will drop in 2020 with -65.64%.
+-	Electricalsara Stores is the top customer with 41.97% sales contribution and 37.75 % profit contribution.
+-	AtliQ has a -2.01% loss by Electricalslance Stores.
+-	Delhi NCR is the market leader with 52.76% sales contribution and 48.48% profit contribution.
+-	Kanpur and Bengaluru are two markets in loss.
+-	North and South zones are not getting much sales from E-Commerce customers.
+-	South zone has the least sales only ₹ 45M and Central zone has good sales is ₹ 264M.
+-	North zone has maximum sales is ₹ 675M with contribution of Delhi NCR has ₹ 519M.
+
 
 
 
